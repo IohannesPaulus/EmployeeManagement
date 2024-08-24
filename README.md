@@ -8,6 +8,8 @@ Entorno: Visual Studio Code 2022
 
 INSTRUCCIONES
 
+El código se encuentra en la rama master.
+
 El proyecto supongo que se ejecutará en un ambiente de desarrollo:
 
 - Bajar el repositorio desde el GitHub
