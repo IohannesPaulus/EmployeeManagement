@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+        <title>Employee Management</title>
+    </head>
+
+    <body style="background-color: #4a8eb5;">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <form id="employeeForm" class="p-4 bg-light rounded">
+                        <input type="hidden" id="employeeId" />
+
+                        <div class="form-group">
+                            <label for="employeeName">Name</label>
+                            <input type="text" class="form-control" id="employeeName" placeholder="Enter employee name" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="employeePosition">Position</label>
+                            <input type="text" class="form-control" id="employeePosition" placeholder="Enter employee position" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="employeeOffice">Office</label>
+                            <input type="text" class="form-control" id="employeeOffice" placeholder="Enter employee office" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="employeeSalary">Salary</label>
+                            <input type="number" class="form-control" id="employeeSalary" placeholder="Enter employee salary" />
+                        </div>
+
+                        <button type="submit" id="addEmployee" class="btn btn-primary w-100">Add Employee</button>
+                    </form>
+                </div>
+
+                <div class="col-md-8">
+                <label for="employeeTable"> Employee list</label>
+                    <table id="employeeTable" class="table table-striped table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Salary</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <!-- Here we will fill the employees with Jquery -->
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/js/Employee.js"></script>
+        <link rel="stylesheet" href="~/css/Employee.css" />
+
+    </body>
+    </html>
+
+}

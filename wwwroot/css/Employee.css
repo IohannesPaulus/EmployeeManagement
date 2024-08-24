@@ -1,0 +1,60 @@
+﻿
+.body {
+    background-color: bisque;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+.form-control {
+    font-size: 1rem; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+#employeeForm {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#employeeTable {
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+#addEmployee {
+    background-color: #4a8eb5;
+    border-color: #4a8eb5;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem; 
+    font-weight: 500; 
+}
